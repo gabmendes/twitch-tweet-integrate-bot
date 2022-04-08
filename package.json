@@ -1,0 +1,27 @@
+{
+  "name": "twitch-tweet-integrate-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabmendes/twitch-tweet-integrate-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabmendes/twitch-tweet-integrate-bot/issues"
+  },
+  "homepage": "https://github.com/gabmendes/twitch-tweet-integrate-bot#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "esm": "^3.2.25"
+  }
+}
